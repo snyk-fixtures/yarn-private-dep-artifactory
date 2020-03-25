@@ -7,15 +7,21 @@
   resolved "http://artifactory.dev.snyk.io/artifactory/api/npm/npm-deps-test/@snyk/gemfile/-/@snyk/gemfile-1.2.0.tgz#18b2bed36a4880b2dc07d7315c8db6d86e8de0d4"
   integrity sha1-GLK+02pIgLLcB9cxXI222G6N4NQ=
 
+lodash@4.17.11:
+  version "4.17.11"
+  resolved "http://artifactory.dev.snyk.io/artifactory/api/npm/npm-deps-test/lodash/lodash-4.17.11.tgz#23736acc4dd31c1dc131cf20319d9cc052f14045"
+  integrity sha1-I3NqzE3THB3BMc8gMZ2cwFLxQEU=
+
 ms@1.0.0:
   version "1.0.0"
   resolved "http://artifactory.dev.snyk.io/artifactory/api/npm/npm-deps-test/ms/-/ms-1.0.0.tgz#815077218b8d71a6b180ecb49594e56541c584d4"
   integrity sha1-gVB3IYuNcaaxgOy0lZTlZUHFhNQ=
 
-yarn-private-registries@^1.0.1:
-  version "1.0.1"
-  resolved "http://artifactory.dev.snyk.io/artifactory/api/npm/npm-deps-test/yarn-private-registries/yarn-private-registries-1.0.1.tgz#98cf8c98aec80408bd34569b06e57251ea93729a"
-  integrity sha1-mM+MmK7IBAi9NFabBuVyUeqTcpo=
+yarn-private-registries@1.0.0:
+  version "1.0.0"
+  resolved "http://artifactory.dev.snyk.io/artifactory/api/npm/npm-deps-test/yarn-private-registries/yarn-private-registries-1.0.0.tgz#b3993ad90e14bfda64b2c800cbacc4e799a16a36"
+  integrity sha1-s5k62Q4Uv9pkssgAy6zE55mhajY=
   dependencies:
     "@snyk/gemfile" "^1.2.0"
+    lodash "4.17.11"
     ms "1.0.0"

@@ -5,7 +5,6 @@
   "author": "Or Sagie <or.sagie@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ms": "1.0.0",
-    "yarn-private-registries": "^1.0.1"
+    "yarn-private-registries": "1.0.0"
   }
 }
