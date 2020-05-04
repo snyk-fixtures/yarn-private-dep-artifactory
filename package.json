@@ -5,6 +5,12 @@
   "author": "Or Sagie <or.sagie@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "yarn-private-registries": "1.0.0"
-  }
+    "yarn-private-registries": "1.0.0",
+    "snyk": "^1.317.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
